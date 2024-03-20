@@ -3,11 +3,13 @@ import ConditionalOutputIfElse
   from "./ConditionalOutputIfElse";
 import ConditionalOutputInline
   from "./ConditionalOutputInline";
+import Exam from "./Exam";
 const ConditionalOutput = () => {
  return(
    <>
      <ConditionalOutputIfElse/>
      <ConditionalOutputInline/>
+     <Exam/>
    </>
  );
 };
